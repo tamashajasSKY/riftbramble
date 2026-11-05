@@ -1,0 +1,50 @@
+{
+  "passed": 11,
+  "results": [
+    {
+      "name": "Enemy frames exactly match accepted 1.4 art",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet frames exactly match accepted 1.4 art",
+      "result": "PASS"
+    },
+    {
+      "name": "All eleven named skins use different original humanoid tiles",
+      "result": "PASS"
+    },
+    {
+      "name": "Four classes have four different default portraits",
+      "result": "PASS"
+    },
+    {
+      "name": "Skins have different pixel structures, not only palette swaps",
+      "result": "PASS"
+    },
+    {
+      "name": "Hero pixels come directly from original Kenney atlas",
+      "result": "PASS"
+    },
+    {
+      "name": "Shop portraits show the same detailed frames used in gameplay",
+      "result": "PASS"
+    },
+    {
+      "name": "Class selection uses matching restored portraits",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing run keeps skin ID, coins, unlocks and save schema",
+      "result": "PASS"
+    },
+    {
+      "name": "Hero renderer no longer substitutes a colored block figure",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors in restored art flows",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

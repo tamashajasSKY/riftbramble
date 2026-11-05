@@ -1,0 +1,20 @@
+{
+  "passed": 15,
+  "checks": [
+    "warrior actual touchscreen activation",
+    "warrior cooldown respected",
+    "warrior independent information button",
+    "mage actual touchscreen activation",
+    "mage cooldown respected",
+    "mage independent information button",
+    "ranger actual touchscreen activation",
+    "ranger cooldown respected",
+    "ranger independent information button",
+    "necromancer actual touchscreen activation",
+    "necromancer cooldown respected",
+    "necromancer independent information button",
+    "Keyboard Enter also activates button",
+    "Hit target unobstructed 320x568",
+    "Hit target unobstructed 844x390"
+  ]
+}

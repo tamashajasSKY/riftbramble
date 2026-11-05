@@ -1,0 +1,13 @@
+{
+  "passed": 8,
+  "checks": [
+    "All nine starter skills have distinct detailed icons",
+    "Every shop skill opens its own description without buying or equipping",
+    "Skill description pauses combat and keeps correct current rank",
+    "Closing returns to same run",
+    "Class information never triggers skill",
+    "Every owned skill and class skill is tappable in combat",
+    "Raven silhouette changed and all other pets remain untouched source atlas",
+    "No JavaScript errors"
+  ]
+}

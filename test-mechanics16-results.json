@@ -1,0 +1,18 @@
+{
+  "passed": 13,
+  "checks": [
+    "Bullets destroy an individual cannon before hull, reducing fire patterns",
+    "Generator and engine can be separately shot in central lane",
+    "Asteroid collision damages unshielded pilot",
+    "Rescue capsules give points and modest shared reward",
+    "Convoy intercepts enemy bullet and loses health",
+    "Modules affect real projectiles and shield cooldown",
+    "Module choices survive reload and cannot exceed level four",
+    "Card restoration preserves exact hand, energy and enemy health",
+    "Enemy guard lasts through the players next turn",
+    "Reshuffle draws from discard while keeping exhausted cards out",
+    "Pet roles use separate fixed card-mode rules",
+    "Champion win unlocks memories and next difficulty without other modes",
+    "Card backup and full reset cover third save slot"
+  ]
+}

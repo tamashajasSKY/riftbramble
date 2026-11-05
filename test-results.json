@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-05T13:18:09.360Z",
+  "engine": "155.0.8059.79",
+  "passed": 29,
+  "results": [
+    {
+      "name": "Menu visible",
+      "result": "PASS"
+    },
+    {
+      "name": "Run starts",
+      "result": "PASS"
+    },
+    {
+      "name": "Movement works",
+      "result": "PASS"
+    },
+    {
+      "name": "Dash grants invulnerability and cooldown",
+      "result": "PASS"
+    },
+    {
+      "name": "Armor reduces incoming damage",
+      "result": "PASS"
+    },
+    {
+      "name": "Invulnerability blocks repeated damage",
+      "result": "PASS"
+    },
+    {
+      "name": "Harder enemies drop more money",
+      "result": "PASS"
+    },
+    {
+      "name": "Automatic projectiles hit and kill a target",
+      "result": "PASS"
+    },
+    {
+      "name": "Coins are collected and credited",
+      "result": "PASS"
+    },
+    {
+      "name": "Wave rewards bank all remaining drops and open three unique upgrades",
+      "result": "PASS"
+    },
+    {
+      "name": "Reroll spends exact advertised price",
+      "result": "PASS"
+    },
+    {
+      "name": "Healing purchase costs coins and restores health",
+      "result": "PASS"
+    },
+    {
+      "name": "Choosing an upgrade begins the next wave",
+      "result": "PASS"
+    },
+    {
+      "name": "Pause freezes combat",
+      "result": "PASS"
+    },
+    {
+      "name": "Snapshot preserves coins, health, wave",
+      "result": "PASS"
+    },
+    {
+      "name": "Reload restores a paused run",
+      "result": "PASS"
+    },
+    {
+      "name": "Fifth wave spawns a boss",
+      "result": "PASS"
+    },
+    {
+      "name": "Boss fires ten telegraphed projectiles",
+      "result": "PASS"
+    },
+    {
+      "name": "All upgrade effects change player stats safely",
+      "result": "PASS"
+    },
+    {
+      "name": "Endless waves continue beyond wave 100",
+      "result": "PASS"
+    },
+    {
+      "name": "Death pays the vault exactly once",
+      "result": "PASS"
+    },
+    {
+      "name": "Permanent talent buys persist",
+      "result": "PASS"
+    },
+    {
+      "name": "New run inherits permanent health",
+      "result": "PASS"
+    },
+    {
+      "name": "Touch joystick and simultaneous dash",
+      "result": "PASS"
+    },
+    {
+      "name": "Pause layout 360x640",
+      "result": "PASS"
+    },
+    {
+      "name": "Pause layout 412x915",
+      "result": "PASS"
+    },
+    {
+      "name": "Pause layout 320x568",
+      "result": "PASS"
+    },
+    {
+      "name": "No external runtime network requests",
+      "result": "PASS"
+    },
+    {
+      "name": "No game JavaScript errors",
+      "result": "PASS"
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

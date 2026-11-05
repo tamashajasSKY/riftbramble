@@ -1,0 +1,15 @@
+Forintvedo 1.0.0 - bundled graphics
+
+Kenney - Tiny Dungeon (2022)
+Original source: https://kenney.nl/assets/tiny-dungeon
+Downloaded archive:
+https://kenney.nl/media/pages/assets/tiny-dungeon/f8422efb44-1674742415/kenney_tiny-dungeon.zip
+License: Creative Commons CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Original license is bundled as KENNEY_LICENSE.txt.
+
+dungeon.png is a lossless atlas of the original 132 16x16 PNG tiles,
+12 columns x 11 rows. Original artwork is not AI generated.
+Launcher icon combines an original application background with Kenney tile 84.
+All UI, visual effects, game logic and synthesized audio are original to this project.
+No remote requests, advertisements, accounts or purchases are used.

@@ -1,0 +1,142 @@
+{
+  "passed": 34,
+  "results": [
+    {
+      "name": "Real 1.3 profile, unlocks, run stats and floor loot survive migration",
+      "result": "PASS"
+    },
+    {
+      "name": "New backup validator accepts migrated v5 snapshots",
+      "result": "PASS"
+    },
+    {
+      "name": "Legacy current wave keeps original difficulty until next wave",
+      "result": "PASS"
+    },
+    {
+      "name": "Bulk magnet credits every item exactly once and draws collection trails",
+      "result": "PASS"
+    },
+    {
+      "name": "Coin object cannot be credited twice",
+      "result": "PASS"
+    },
+    {
+      "name": "Chest opens in same wave and retains floor loot",
+      "result": "PASS"
+    },
+    {
+      "name": "Every selected upgrade now has an exact persisted counter",
+      "result": "PASS"
+    },
+    {
+      "name": "Wave completion visibly accounts for all remaining loot",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward screen and floor settlement survive save reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Powerful builds get higher but bounded wave pressure",
+      "result": "PASS"
+    },
+    {
+      "name": "Difficulty is snapshotted, not increased mid wave or by temporary buffs",
+      "result": "PASS"
+    },
+    {
+      "name": "Enemy HP increases on next wave for the stronger build",
+      "result": "PASS"
+    },
+    {
+      "name": "Shots outside the world and outward dragon muzzles are rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Offscreen in-world enemy can still shoot",
+      "result": "PASS"
+    },
+    {
+      "name": "Outside bullets disappear before collision processing",
+      "result": "PASS"
+    },
+    {
+      "name": "Boss pointer points to offscreen boss and disappears for visible boss",
+      "result": "PASS"
+    },
+    {
+      "name": "Shield damage boost survives shield loss and description explains it",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet and hero levels have concrete explanations",
+      "result": "PASS"
+    },
+    {
+      "name": "All nine pet portraits are unique and match shop art",
+      "result": "PASS"
+    },
+    {
+      "name": "Shop uses the same named pet frames as gameplay",
+      "result": "PASS"
+    },
+    {
+      "name": "Four taps do not reveal the Easter egg",
+      "result": "PASS"
+    },
+    {
+      "name": "Fifth help word tap celebrates Andris with fireworks",
+      "result": "PASS"
+    },
+    {
+      "name": "Celebration closes and keeps help open",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward controls stay fixed with long text at 390×844",
+      "result": "PASS"
+    },
+    {
+      "name": "Three equal cards and accessible fixed controls at 390×844",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward controls stay fixed with long text at 360×640",
+      "result": "PASS"
+    },
+    {
+      "name": "Three equal cards and accessible fixed controls at 360×640",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward controls stay fixed with long text at 320×568",
+      "result": "PASS"
+    },
+    {
+      "name": "Three equal cards and accessible fixed controls at 320×568",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward controls stay fixed with long text at 412×915",
+      "result": "PASS"
+    },
+    {
+      "name": "Three equal cards and accessible fixed controls at 412×915",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward controls stay fixed with long text at 844×390",
+      "result": "PASS"
+    },
+    {
+      "name": "Three equal cards and accessible fixed controls at 844×390",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors in updated flows",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-23T14:01:42.976Z",
+  "passed": 38,
+  "results": [
+    {
+      "name": "Twelve hero appearances and nine starting skills",
+      "result": "PASS"
+    },
+    {
+      "name": "Currency conversion is entirely removed",
+      "result": "PASS"
+    },
+    {
+      "name": "Minimap appears at the bottom center during survival",
+      "result": "PASS"
+    },
+    {
+      "name": "Minimap displays enemies outside the viewport",
+      "result": "PASS"
+    },
+    {
+      "name": "Three new enemy archetypes have distinct stats",
+      "result": "PASS"
+    },
+    {
+      "name": "New archer fires three aimed projectiles",
+      "result": "PASS"
+    },
+    {
+      "name": "New brute creates a telegraphed ground attack",
+      "result": "PASS"
+    },
+    {
+      "name": "Wave pearls arrive once per three waves",
+      "result": "PASS"
+    },
+    {
+      "name": "Ordinary pearl drop chance is lower than the old four percent",
+      "result": "PASS"
+    },
+    {
+      "name": "Weekly daily rewards are reduced to sixteen pearls per cycle",
+      "result": "PASS"
+    },
+    {
+      "name": "Mage class skill deals area damage and starts cooldown",
+      "result": "PASS"
+    },
+    {
+      "name": "Class skill cannot be spammed during cooldown",
+      "result": "PASS"
+    },
+    {
+      "name": "Warrior class skill grants shield",
+      "result": "PASS"
+    },
+    {
+      "name": "Ranger class skill sends a piercing volley",
+      "result": "PASS"
+    },
+    {
+      "name": "Necromancer class skill summons and drains life",
+      "result": "PASS"
+    },
+    {
+      "name": "New skill poison damages, slows and leaves an area",
+      "result": "PASS"
+    },
+    {
+      "name": "New sanctuary skill heals and grants shield",
+      "result": "PASS"
+    },
+    {
+      "name": "New ice spear pierces several enemies",
+      "result": "PASS"
+    },
+    {
+      "name": "Minimap hides on pause",
+      "result": "PASS"
+    },
+    {
+      "name": "Space lobby selects a distinct looping soundtrack",
+      "result": "PASS"
+    },
+    {
+      "name": "Space boss can release buffs on damage milestones",
+      "result": "PASS"
+    },
+    {
+      "name": "Space buff drops are capped and use real pickups",
+      "result": "PASS"
+    },
+    {
+      "name": "Space kill pearls are three times rarer",
+      "result": "PASS"
+    },
+    {
+      "name": "Odd ordinary space sectors do not grant pearl completion rewards",
+      "result": "PASS"
+    },
+    {
+      "name": "Space has diving enemies in later formations",
+      "result": "PASS"
+    },
+    {
+      "name": "Account panel honestly marks unconfigured Google service unavailable",
+      "result": "PASS"
+    },
+    {
+      "name": "Backup includes profile and both independent run saves",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid backup cannot modify current local data",
+      "result": "PASS"
+    },
+    {
+      "name": "Oversized and prototype-bearing backups are rejected",
+      "result": "PASS"
+    },
+    {
+      "name": "Full reset requires typing RESET",
+      "result": "PASS"
+    },
+    {
+      "name": "Cancelled reset preserves saved progress",
+      "result": "PASS"
+    },
+    {
+      "name": "Confirmed reset clears unlocks, records, currencies and both runs",
+      "result": "PASS"
+    },
+    {
+      "name": "Backup restoration recovers both run slots and character",
+      "result": "PASS"
+    },
+    {
+      "name": "Genuine 1.2 save migrates with health, wave, class and wallet intact",
+      "result": "PASS"
+    },
+    {
+      "name": "Migrated run initializes new skills without corrupting old stats",
+      "result": "PASS"
+    },
+    {
+      "name": "Skill, minimap and dash do not overlap at 320",
+      "result": "PASS"
+    },
+    {
+      "name": "Skill, minimap and dash do not overlap at 412",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript runtime errors",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

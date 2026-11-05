@@ -1,0 +1,11 @@
+{
+  "version": "1.6.1",
+  "versionCode": 10,
+  "package": "hu.forintvedo.survival",
+  "sha256": "228aa4d5678df1aee30f681b1822be189e507102ec53220a85cad25c03c4a9d7",
+  "certificateSHA256": "5b092b3c6e75954a5a4d45e01a5a7c2e4730c8b1d64c1439abf231ad022cd603",
+  "sameCertificateAs160": true,
+  "zipIntegrity": true,
+  "assetCount": 22,
+  "allAssetsMatch": true
+}

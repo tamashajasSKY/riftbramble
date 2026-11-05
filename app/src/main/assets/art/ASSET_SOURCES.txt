@@ -1,0 +1,42 @@
+Riftward 1.4.1 - bundled graphics
+
+Kenney - Tiny Dungeon (2022)
+Original source: https://kenney.nl/assets/tiny-dungeon
+Downloaded archive:
+https://kenney.nl/media/pages/assets/tiny-dungeon/f8422efb44-1674742415/kenney_tiny-dungeon.zip
+License: Creative Commons CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Original license is bundled as KENNEY_LICENSE.txt.
+
+dungeon.png is a lossless atlas of the original 132 16x16 PNG tiles,
+12 columns x 11 rows. Original artwork is not AI generated.
+Since 1.4 the launcher icon is rendered from the original riftward.svg logo.
+All UI, visual effects, game logic and synthesized audio are original to this project.
+No remote requests, advertisements, accounts or purchases are used.
+
+Blarumyrran - Dragons (red dragon)
+Source: https://opengameart.org/content/dragons
+Original PNG: https://opengameart.org/sites/default/files/pisilohepunane3.png
+License: CC0 1.0 Universal; attribution not required.
+The original PNG is bundled unchanged as dragon.png.
+
+Music: original procedural chiptune composition for Forintvedo.
+No third-party audio or music samples. See compose_music.py to regenerate.
+
+Kenney - Pixel Shmup
+Source: https://kenney.nl/assets/pixel-shmup
+License: CC0 1.0 Universal. Original license: SHMUP_LICENSE.txt.
+ships.png is the unchanged ships_packed.png atlas (128 x 192 pixels).
+
+Space music: original 26.67 second chiptune; regenerate with compose_space_music.py.
+New cosmetic skins reuse the original bundled CC0 atlases.
+
+Riftward 1.4: Original code-native pixel silhouettes in ../roles.js; original Riftward SVG logo in riftward.svg. Hero, pet, enemy and faction art is cached canvas geometry. No external runtime services.
+
+Riftward 1.4.1 restores the original unchanged Kenney Tiny Dungeon character tiles for playable heroes and skins (CC0). Enemy/pet art from 1.4 is preserved. No new downloaded asset pack is used.
+
+RiftBramble 1.5.0 pet graphics: Tiny Creatures 1.0 by Clint Bellanger, CC0 1.0 Universal.
+Official source: https://clintbellanger.itch.io/tiny-creatures
+Original, unchanged packed PNG atlas (with original transparency) is creatures.png; original license: TINY_CREATURES_LICENSE.txt.
+Spark 4, Storm 32, Spirit 50, Iron 128, Aegis 49, Moth 13, Moss 115, Raven 180, minion 99 (one-based source IDs). Ember retains original Kenney Dungeon tile 123.
+The accepted enemy art is unchanged.

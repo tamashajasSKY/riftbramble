@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#101c22">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>Forintvédő</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="game" aria-label="Forintvédő játéktér"></canvas>
+<div id="hud" hidden>
+  <div class="hud-top"><div><span class="eyebrow">KAZAMATA / <span id="wave">01</span></span><strong id="waveName">AZ OSTROM KEZDETE</strong></div><button id="pauseBtn" class="square" aria-label="Szünet">Ⅱ</button></div>
+  <div class="hud-stats"><div class="health"><div class="health-label"><span>ÉLETERŐ</span><b id="hpText">100 / 100</b></div><div class="track"><i id="hpBar"></i></div></div><div class="money"><span class="coin">Ft</span><b id="coins">0</b></div></div>
+  <div class="wave-progress"><i id="waveBar"></i></div>
+  <div class="statusline"><span id="remaining">13 ellenfél</span><span id="time">00:00</span></div>
+</div>
+<div id="banner" hidden><span id="bannerSmall"></span><strong id="bannerTitle"></strong></div>
+<div id="controls" hidden><span id="moveHint">HÚZD AZ UJJAD A MOZGÁSHOZ</span><button id="dashBtn"><span>➜</span><b>KITÉRÉS</b><small id="dashText">KÉSZ</small><i id="dashMeter"></i></button></div>
+<main id="overlay">
+ <section id="menu" class="screen">
+  <div class="edition"><span class="live-dot"></span> VÉGTELEN TÚLÉLÉS</div>
+  <div class="brand"><div class="sigil">Ft</div><h1>FORINT<span>VÉDŐ</span></h1><p>A KAZAMATA OSTROMA</p></div>
+  <div class="intro">Egy hős. Egy végtelen ostrom.<br>Minden tallér egy újabb esély.</div>
+  <div class="menu-bottom">
+   <div class="record-row"><div><span>LEGJOBB HULLÁM</span><strong id="bestWave">—</strong></div><div><span>KINCSTÁR</span><strong><span id="bank">0</span> <em>Ft</em></strong></div></div>
+   <button id="continueBtn" class="primary" hidden>FOLYTATÁS <span>↗</span></button>
+   <button id="startBtn" class="primary">INDULJ AZ OSTROMBA <span>→</span></button>
+   <div class="two"><button id="workshopBtn" class="secondary">MŰHELY <span>↗</span></button><button id="helpBtn" class="secondary">HOGYAN JÁTSSZ?</button></div>
+   <div class="menu-foot"><button id="soundBtn" class="text-btn">HANG: BE</button><span>OFFLINE · REKLÁM NÉLKÜL</span></div>
+  </div>
+ </section>
+ <section id="upgrade" class="screen panel-screen" hidden>
+  <div class="eyebrow mint">EGY LÉPÉSSEL ERŐSEBBEN</div><h2>Hullám túlélve.</h2><p id="rewardInfo" class="sub"></p>
+  <div class="shop-balance"><span>Válassz <b>egy ingyenes</b> fejlesztést.</span><strong><span id="shopCoins">0</span> Ft</strong></div>
+  <div id="cards"></div>
+  <div class="two shop-actions"><button id="rerollBtn" class="secondary"></button><button id="healBtn" class="secondary"></button></div>
+  <p class="note">A fejlesztések összeadódnak. A tallérokból gyógyulhatsz vagy új ajánlatot kérhetsz.</p>
+ </section>
+ <section id="pause" class="screen centered" hidden><div class="eyebrow mint">VEGYÉL LEVEGŐT</div><h2>Az ostrom várhat.</h2><p class="sub" id="pauseStats"></p><button id="resumeBtn" class="primary">FOLYTATÁS <span>→</span></button><button id="pauseSoundBtn" class="secondary">HANG: BE</button><button id="quitBtn" class="text-btn">FUTAM BEFEJEZÉSE</button><p class="note">Szünetben a futam mentve van.<br>Bezárás után a Folytatás gombbal térhetsz vissza.</p></section>
+ <section id="over" class="screen centered" hidden><div class="eyebrow gold">A KINCSTÁR NEM FELEJT</div><h2>Az ostrom véget ért.</h2><p id="deathLine" class="sub">A következő futam a tiéd.</p><div class="results"><div><span>TÚLÉLT HULLÁM</span><b id="resultWave"></b></div><div><span>LEGYŐZÖTT ELLENFÉL</span><b id="resultKills"></b></div><div><span>TÚLÉLÉSI IDŐ</span><b id="resultTime"></b></div><div><span>KINCSTÁRBA KERÜLT</span><b id="resultCoins" class="gold"></b></div></div><button id="againBtn" class="primary">MÉG EGY FUTAM <span>→</span></button><button id="backMenuBtn" class="secondary">VISSZA A FŐMENÜBE</button></section>
+ <section id="help" class="screen panel-screen" hidden><div class="eyebrow mint">GYORS ÚTMUTATÓ</div><h2>Maradj mozgásban.</h2><div class="help-list"><p><b>01 / Mozgás</b>Húzd az ujjad a játéktéren. A virtuális kar az érintésed helyén jelenik meg. A fegyver automatikusan céloz és lő.</p><p><b>02 / Kitérés</b>A jobb alsó nyíllal rövid időre sebezhetetlenné válsz. Újratöltés: 4 másodperc.</p><p><b>03 / Tallérok és fejlesztések</b>A nehezebb ellenfél több forintot dob. A hullám végén minden tallért megkapsz, és 3 lapból egy ingyenes fejlesztést választhatsz.</p><p><b>04 / Végtelen ostrom</b>Minden 5. hullám főellenfél. A piros jelzések támadást jeleznek. A hullámok között 10% életerőt visszakapsz.</p><p><b>05 / Kincstár</b>A futam végén a megmaradt forintjaid a kincstárba kerülnek. A műhely fejlesztései a következő futamokat is erősítik.</p></div><button id="helpBackBtn" class="primary">ÉRTEM, INDULHAT <span>→</span></button><div class="credits">Grafika: Kenney · Tiny Dungeon · CC0<br>Hangok: saját szintetizált effektek<br>v1.0.0 · Android 7.0+ · Offline</div></section>
+ <section id="workshop" class="screen panel-screen" hidden><div class="eyebrow gold">ÁLLANDÓ FEJLESZTÉSEK</div><h2>A műhely.</h2><p class="sub">Minden új futamban számítanak.</p><div class="vault"><span>KINCSTÁR</span><b><span id="vaultCoins">0</span> Ft</b></div><div id="talents"></div><button id="workshopBackBtn" class="secondary">VISSZA</button><p class="note">A rekordot, a műhelyt és a futamot a telefon tárolja. Az alkalmazás adatainak törlése ezeket is törli.</p></section>
+</main>
+<div id="toast" role="status"></div>
+<script src="game.js"></script>
+</body></html>

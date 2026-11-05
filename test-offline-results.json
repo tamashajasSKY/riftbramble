@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-05T12:30:07.504Z",
+  "engine": "131.0.6778.204",
+  "passed": 10,
+  "results": [
+    "Bundled chiptune plays from a file URL",
+    "Background music pauses with combat",
+    "Bundled file URL starts",
+    "Production test interface disabled",
+    "Save survives file URL reload",
+    "Paused save resumes combat",
+    "Space mode boots from bundled file URL",
+    "Space mode restores paused from file URL",
+    "Both local save slots coexist",
+    "No external network requests or JavaScript errors"
+  ],
+  "errors": [],
+  "network": []
+}

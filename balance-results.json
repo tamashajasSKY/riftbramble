@@ -1,0 +1,26 @@
+[
+  {
+    "class": "warrior",
+    "damagePerSecond": 67.03100000002887,
+    "hp": 135,
+    "armor": 0.12
+  },
+  {
+    "class": "mage",
+    "damagePerSecond": 53.362999999930615,
+    "hp": 100,
+    "armor": 0
+  },
+  {
+    "class": "ranger",
+    "damagePerSecond": 60.94075000009616,
+    "hp": 85,
+    "armor": 0
+  },
+  {
+    "class": "necromancer",
+    "damagePerSecond": 64.29399999988964,
+    "hp": 90,
+    "armor": 0
+  }
+]

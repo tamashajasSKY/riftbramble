@@ -1,0 +1,32 @@
+# Signing material and local credentials: NEVER commit.
+signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+.env
+.env.*
+!.env.example
+local.properties
+gradle.properties
+# Generated outputs and development tools
+build/
+**/build/
+dist/
+deliverables/
+qa/
+.gradle/
+node_modules/
+tools/
+__pycache__/
+*.pyc
+*.pending
+*.apk
+*.aab
+.idea/
+*.iml
+.DS_Store
+
+# Verified APK intentionally published on the download page.
+!docs/downloads/RiftBramble-*.apk

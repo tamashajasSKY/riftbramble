@@ -1,0 +1,136 @@
+# RiftBramble (korábban Riftward / Forintvédő) – változásnapló
+
+Minden verzió változásai, a legújabbtól visszafelé.
+
+## 1.6.1 – Több hely a pályának
+
+2026.11.05
+
+- Karcsú Ostrom-felület: kompakt élet- és pénzsáv, egysoros, oldalra görgethető skill- és buffikonok szintjelzéssel; a skillek és petek leírásai továbbra is koppinthatók.
+- A hullámnév, a hősszint, az ostromerő és az összeállítás részletei a felső információgombbal, szünetelő játék mellett nyithatók meg.
+- Kisebb minimap és vezérlők, 44 képpontos információ- és skillérintőfelületekkel; a küldetésgomb a felső sorba került.
+- GitHubra előkészített forráscsomag, külön projektátadás, build- és tesztlépések; az aláírókulcs külön, privát csomagban marad. Az új build hiányzó eredeti kulcsnál nem generál csendben másik aláírást.
+
+## 1.6.0 – Három világ, közös krónika
+
+2026.11.03
+
+- Hasadékkrónikák: teljesen offline, körökre osztott pakliépítő harmadik játékmód, négy kaszt, 34 lap, nyolcállomásos útvonal, látható ellenséges szándék, energia, védelem, méreg, égés, szolgák és késleltetett meteor.
+- Kártyajutalom három lapból vagy kihagyás; kereskedő, pakliritkítás, pihenés és önkéntes oltáresemény. Kasztonként más kezdőpakli, öt feloldható nehézség. A petek külön kártyás szerepképességet adnak, az ostromos szint nem növeli a lapértékeket.
+- Külön krónikafutam-mentés, három módot tartalmazó fájlos export/import és teljes reset. Közös gyöngytár és egyszeri futamkifizetés. A régi kétmódos mentés továbbra is importálható.
+- Ostrom: teljes pályán választható hasadékbezárás, karavánkísérés és rúnakővédelem. Sikerért tallér és fejlesztést adó láda. Arany minimapjel és külön elfogadás. A feladat a hullám végével lezárul.
+- Önkéntes tövisoltár: két következő hullámra felezett gyógyításért garantált ritka vagy epikus jutalomlap. Három választható skill-evolúció: Szilánkvihar, Parázsüstökös és Viharszív.
+- Külön rövid expedíció: 15 hullám után sárkányfinálé, lezárás és jutalom; az endless Ostrom megmarad.
+- Űrjárat: választható vadász, drónhordozó és cirkáló hajóosztály; a skinek szabadon társíthatók hozzájuk. Futamon belüli átütő lézer, rakéta, drón és pajzskondenzátor, maximum négyes szintekkel.
+- Szektor után elágazó útvonal: aszteroidamező, mentőkapszulák, konvojvédelem vagy elit flotta. Menthető modul- és útvonalválasztás. Külön kilőhető bossgenerátor, két löveg és hajtómű.
+- Közös emlékgyűjtemény, bossokkal feloldható sárkány- és flottalap. A kártyamód megnyerése is feloldja őket: nincs kötelező átjárás a módok között.
+- Javítás: az Ostrom saját kasztképesség-gombja újra érinthető. Az érintést átengedő szülővezérlő mellett külön pointer-events engedélyt kapott; billentyűzetes aktiválás is működik. A leírás külön gombon maradt.
+- A részletes hősök, petek és az elfogadott mobgrafikák, a skillek koppintható leírásai és a rögzített fejlesztési menü megmaradnak. A Google-felhő ebben az offline APK-ban továbbra sem aktív.
+
+## 1.5.1 – Holló és felismerhető képességek
+
+2026.10.23
+
+- Az Ősi holló téves, borzszerű figuráját saját hollórajz váltja: hosszú csőr, szárnytollak és farok. A boltban és a pályán azonos rajz látható; a többi pet változatlan.
+- Részletes, nagy felbontású saját vektoros skillikonok a kilenc kezdő skillhez, a robbanólövedékhez, a hatótáv- és ritmusfejlesztéshez, illetve a négy kaszt képességeihez és mesterségeihez.
+- A képek a működést mutatják: keringő penge pályaívvel, elágazó láncvillám, fagygyűrű, lángmező, méregfelhő, szentélypajzs, áthatoló jéglándzsa és becsapódó meteor. A bolt, a felszerelés és a fejlesztési lap ugyanazt az ikont használja.
+- Koppintható skillleírások a boltban, felszerelésben, fejlesztési ikonokon és a játékbeli képességsávban. Minden birtokolt fejlesztés megjelenik a sávban; olvasáskor szünetel a játék. A kasztképesség külön információgombot kapott, amely nem aktiválja a támadást.
+- A rögzített fejlesztési menü, a játékmenet és a korábbi mentések megmaradnak.
+
+## 1.5.0 – RiftBramble – társak és hasadékok
+
+2026.10.23
+
+- Új név és tövises hasadékpajzs: RiftBramble. A pontos névre és a Rift Bramble változatra nem találtunk azonos játékcímet a nyilvános webes és indexelt áruházi keresésekben. Ez nem névfoglalás vagy védjegyjogi igazolás.
+- Részletes, az eredeti Tiny Dungeon stílushoz illő petgrafika: eredeti Kenney és Clint Bellanger Tiny Creatures CC0 sprite-ok. A bolt és a pálya azonos, névhez illő figurákat mutat.
+- A pet evolúciója 1–10, ereje, gyorsasága és robbanása 0–10 szintig fejleszthető. A külső kötelék maximuma is 10. A maximális lap többé nem jelenik meg és régi mentésből sem választható újra.
+- A társak valós harci képleteit használó aktuális/következő előnézet: sebzés, akcióidő, pajzs, gyógyítás, aura és robbanás. Minden szerep szintjei ténylegesen javítják a hatást, az aura fokozatos felső korlátja mellett is.
+- Azonos felszerelés és petszint azonos társ-alaperőt ad minden kasztnak; a közös passzív skillek is normalizált sebzésalapot használnak. A Mage új futamban +10% alapsebzést kap, saját területi és skilltempó-előnyei mellett.
+- A megvett és már futó régi petbónuszok megmaradnak; a korábban nem számlált fejlesztések szintjét a mentett statokból vezetjük le. A mentések v6 formátumba migrálódnak, a régi feloldások és valuták megtartásával.
+- Koppintható aktív buffok és pályán fekvő buffok. A részletes leírás megmutatja a konkrét értékeket, időtartamot, frissítés szabályát; olvasás közben szünetel a játék. A távoli buff megérintése nem veszi fel a tárgyat.
+- A társ címkéjére koppintva minden petszint és aktuális hatás olvasható. Reszponzív részletező, bolti kártyák és vezérlők.
+- Teljes pályás, egyenletes ellenfél-megjelenés biztonsági távolsággal és figyelmeztetéssel. A távoli mobok a hős felé indulnak; területi támadás csak megfelelő távolságból indul. Minden 15. hullámban továbbra is egyetlen sárkány jelenik meg.
+- Kis, rögzített Főmenü gomb bal felül a menükben, jutalomképernyőn és szünetben, mentést végző visszalépéssel. Hosszú lista aljára többé nem kell legörgetni.
+- A hősskinek és az elfogadott ellenfélrajzok megmaradnak. A Google-felhő továbbra sem aktív; a fájlos átvitel használható.
+
+## 1.4.1 – Részletesebb játszható karakterek
+
+2026.10.23
+
+- A játszható hősök visszakapták a korábbi Kenney Tiny Dungeon karaktergrafikák részletességét: arc, haj, szakáll, sisak, vállvért, csuklya és köpeny különbözteti meg őket.
+- A 11 név szerinti skin 11 különböző eredeti karakterrajzot használ, nem azonos test átszínezett változatait. A kasztviselet a négy kaszt saját figurája.
+- A bolt, a kasztválasztó, a főmenü és a pálya ugyanazokat a hősrajzokat használja. Megszűntek a hősként használt pajzs- és italikonok is.
+- A mobok, bossok, petek és segítők elfogadott 1.4-es grafikája változatlan. A rögzített fejlesztésmenü és az 1.4 játékmeneti javításai megmaradnak.
+- Az alkalmazás a korábbira telepíthető; a mentések, valuták és feloldások nem változnak. A Google-felhő továbbra sem aktív.
+
+## 1.4.0 – Riftward – a hasadék őrei
+
+2026.10.23
+
+- Új név, hasadékpajzs-logó és Android ikon: Riftward. A meglévő alkalmazás frissíthető, a régi mentések és feloldások megmaradnak.
+- Saját pixelrajzok: hegyes kalapos, vörös köpenyes varázslók; sisakos, pajzsos közelharcosok; íjat tartó távolsági ellenfelek. A hősök, skinek és rúnaszolgák külön képi világot kaptak.
+- Mind a kilenc pet saját, nevéhez illő figurát kapott. A bolt, a felszerelésnézet és a pálya azonos képet használ: egér, sárkányfióka, szellem, vasőr, pajzs, lepke, mohaszellem és holló.
+- Rögzített szintlépés- és ládamenü: állandó kártyaméretek és gombhelyek. A hosszú leírások a kártyán belül görgethetők; álló és fekvő telefonméretre is kialakítva.
+- Vörös nyílhegyes ellenséges lövedékek, türkiz saját lövések, arany tallérok és kék rombuszgyöngyök. Baráti rúnaterületek és csíkozott vörös veszélyzónák.
+- Pályahatáron kívülről nem indulhat ellenséges lövés, és a falhoz érő lövedék eltűnik. A pályán belüli, képernyőn túli ellenfél továbbra is lőhet.
+- A hullám elején rögzített ostromerő a sebzéshez, támadási tempóhoz, képességekhez, társakhoz és védelemhez igazodik. Felső korlátok: 3,5× élet, 1,4× sebzés, 1,12× sebesség, 1,25× sűrűség. Hullám közben nem erősödnek vissza az ellenfelek.
+- Látható hősszint és minden újonnan választott fejlesztés számlálója. A szünetben konkrét statok, társhatás és fejlesztési szintek olvashatók. Régi mentésnél az ismeretlen régi választásszámot nem találjuk ki.
+- A mágnes látványos begyűjtési csíkokat, azonnali számlálófrissítést és összeget mutat. A hullám végén felvett összes maradék kincset a jutalomképernyő összesíti. Ismételt jóváírás elleni védelem.
+- A súgó tisztázza a tallér és a gyöngy szerepét, a hősszintet és az Égi pajzs működését. A játék nem használ külön XP-valutát; az Égi pajzs sebzésbónusza a pajzs elfogyása után is él.
+- Külön ládanyitási, szintlépési és bossjelző hangok; képernyőszéli nyíl a főellenfél felé.
+- Rejtett gratuláció Andrisnak: a súgó Összetartás szavára öt koppintás tűzijátékot indít. Csökkentett mozgás beállításnál statikus ünnepi kép jelenik meg.
+- Az offline kiadásban a Google-felhő továbbra sem aktív. A fájlos profil- és futamátvitel használható.
+
+## 1.3.0 – Rúnák és csillagjáratok
+
+2026.10.23
+
+- Hat új hősskin és négy új hajóskin; összesen 12 hősviselet és 8 hajómegjelenés.
+- Három új választható skill: Méregköd, Szentély, Jéglándzsa. Mindegyik futam közben is fejleszthető.
+- Négy saját, aktív kasztképesség: Csatakiáltás, Arkánvihar, Nyílzápor, Lélekszüret. Bal alsó gomb vagy E; külön újratöltés és fejlesztés.
+- Alul középre helyezett minimap a hős, az ellenfelek, bossok és kincsesládák helyével.
+- Új ellenfelek: gyors Árnyékpók, három lövedékkel támadó Rúnaíjász és területre csapó Kőzúzó. Az Űrjárat későbbi szektoraiban lecsapó hajók is vannak.
+- Új, saját szerzésű űrhajós chiptune; automatikus zeneváltás a két játékmód között.
+- Az űrhajós boss sebzésküszöbök átlépésekor 50% eséllyel buffot dob; legfeljebb öt felvehető erősítés lehet egyszerre.
+- Megszűnt a forint gyöngyre váltása. Ritkább gyöngyesés, minden harmadik ostromhullám utáni jutalom, ritkább űrjutalmak és visszafogottabb napi ajándéksor.
+- Fiók / mentés menü: teljes profil és mindkét futam fájlos exportja és importja. A teljes helyi resethez RESET beírása szükséges.
+- Opcionális Google Play Games v2 felhőmentés-integráció és konfigurálható Gradle-build. A kiadott offline APK-ban még nem aktív: saját Google-játékazonosító, OAuth/aláírás-beállítás és konzolos tesztelés szükséges.
+- Korábbi mentések migrációja; minden verzió naplója a játékból is olvasható.
+
+## 1.2.0 – Hősök és csillagok
+
+2026.10.23
+
+- Két külön játékmód: végtelen ostrom és űrhajós, invader stílusú Űrjárat. Közös gyöngytár, külön futammentések.
+- Hétnapos belépési jutalomsor: napi automatikus gyöngyajándék a főmenüben, nagyobb hetedik napi jutalom. A kihagyás nem nullázza a haladást.
+- Négy ingyenes kaszt: Warrior közelharci kardcsapásokkal; Mage erősebb területi mágiával; Ranger gyorsabb lövésekkel; Necromancer megidézett csontvázszolgákkal.
+- Kilenc látható pet: harcoló, védő és buffoló szerep, mindegyikből I–III. tier. A magasabb tierhez az előzőt kell feloldani az adott szerepben.
+- Láthatóbb petkövetés, névcímke, szerepszín és erősebb körvonal. A védők lövedéket blokkolhatnak, a buffolók folyamatos sebzés- és tempóbónuszt adnak.
+- Az Űrjáratban formációban haladó ellenségek, fedezékek, pajzsképesség, felvehető erősítések, öt szektoronként zászlóshajó és gyöngyjutalmak várnak.
+- Űrhangár négy hajóskinnel és öt állandó fejlesztéssel: lézer, hajótest, hajtómű, reaktor és gyöngyszkenner.
+- Kasztfüggő futamfejlesztések, mentés és főmenü gomb mindkét játékmódban, ismételt jutalomkifizetés elleni védelem.
+- Játékbeli változásnapló és külön dokumentált update log minden eddigi verzióhoz. A régi rekordok, gyöngyök és feloldások megmaradnak.
+
+## 1.1.0 – Gyöngyök és társak
+
+2026.10.23
+
+- Külső felszerelésmenü, gyöngytár, öt kozmetikai skin és hat állandó műhelyfejlesztés.
+- Három pet: Szikra, Parázsegér és Őrszellem; külső kötelék, valamint futamon belüli szint-, erő-, gyorsaság- és aurafejlesztés.
+- Hat induló skill, összesen 27 fejlesztés; rúnarobbanás, fagygyűrű, lángmező, meteor és robbanólövedék.
+- Pályán felvehető buffok és extra fejlesztést adó kincsesládák. A láda után az aktuális hullám folytatódik.
+- Csontkirály, Hamuláng mágus és Vaskolosszus; minden 15. hullámban kizárólag egy óriási, kétfázisú Parázssárkány.
+- Saját chiptune zene, mentésátvétel az 1.0-s verzióból és a kincstári forintok átváltása gyöngyre.
+- A kiadott APK az 1.0.0-val azonos aláírókulcsot használ. 108 automatizált ellenőrzés teljesült; fizikai telefonos próba nem történt.
+
+## 1.0.0 – A kazamata ostroma
+
+2026.10.23
+
+- Első játszható, aláírt Android APK; magyar nyelvű, offline survival játék reklám és vásárlás nélkül.
+- Felülnézetes pálya, érintéses mozgás, automatikus célzás és lövés, négy másodpercenként kitérés.
+- Végtelen, fokozatosan nehezedő hullámok, több ellenféltípus és minden ötödik hullámban főellenfél.
+- Nehézségfüggő forinttallér-jutalom, hullámonként három ingyenes fejlesztési ajánlat, gyógyítás és újrasorsolás.
+- Tizennégy futamfejlesztés, köztük páncél, többes lövés, keringő penge és láncvillám.
+- Helyi rekord, futammentés, kincstár és állandó műhelyfejlesztések. Kenney Tiny Dungeon CC0 grafika és saját hanghatások.
+- 29 automatizált játékmenet-ellenőrzés és az APK aláírás-ellenőrzése sikeres. A fizikai telefonos próba nem történt meg.

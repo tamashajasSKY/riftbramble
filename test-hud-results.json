@@ -1,0 +1,53 @@
+{
+  "passed": 20,
+  "checks": [
+    "Full loadout stays in one 44px row at 320x568",
+    "Controls fit without overlap at 320x568",
+    "Details pause and resume at 320x568",
+    "Full loadout stays in one 44px row at 360x640",
+    "Controls fit without overlap at 360x640",
+    "Details pause and resume at 360x640",
+    "Full loadout stays in one 44px row at 390x844",
+    "Controls fit without overlap at 390x844",
+    "Details pause and resume at 390x844",
+    "Full loadout stays in one 44px row at 412x915",
+    "Controls fit without overlap at 412x915",
+    "Details pause and resume at 412x915",
+    "Full loadout stays in one 44px row at 844x390",
+    "Controls fit without overlap at 844x390",
+    "Details pause and resume at 844x390",
+    "Every compact skill and pet opens its description without activation",
+    "Four class abilities still activate by touch",
+    "Compact buff still opens precise description",
+    "Compact objective button opens nearby mission",
+    "No JavaScript errors"
+  ],
+  "measurements": [
+    {
+      "width": 320,
+      "height": 568,
+      "hudHeight": 152
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "hudHeight": 152
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "hudHeight": 152
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "hudHeight": 152
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "hudHeight": 152
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "riftbramble",
+  "version": "1.6.1",
+  "private": true,
+  "description": "Offline Android survival, space patrol and deck-building game",
+  "scripts": {
+    "test": "python3 run_tests.py",
+    "test:hud": "node test-hud.cjs",
+    "test:offline": "node test-offline.cjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}

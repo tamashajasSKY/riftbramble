@@ -1,0 +1,202 @@
+{
+  "passed": 49,
+  "results": [
+    {
+      "name": "Real v5 save migrates to v6 without losing pet bonuses or wallets",
+      "result": "PASS"
+    },
+    {
+      "name": "Accepted mob graphics remain exactly unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "Detailed hero skins remain exactly unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "Named pets are distinct and retain the original sprite transparency",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing over-cap pet power keeps its value and cannot grow beyond rank ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Backup validator accepts migrated schema six",
+      "result": "PASS"
+    },
+    {
+      "name": "Every fighter petLevel rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every fighter petPower rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every fighter petRate rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every fighter petHalo rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every defender petLevel rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every defender petPower rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every defender petRate rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every defender petHalo rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every buffer petLevel rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every buffer petPower rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every buffer petRate rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Every buffer petHalo rank changes its real effect through max ten",
+      "result": "PASS"
+    },
+    {
+      "name": "Combat pet projectiles use exactly the displayed damage and cooldown",
+      "result": "PASS"
+    },
+    {
+      "name": "Defender actually grants its advertised shield and healing",
+      "result": "PASS"
+    },
+    {
+      "name": "Defender never reduces an existing shield above its regeneration cap",
+      "result": "PASS"
+    },
+    {
+      "name": "Buffer actually heals more at higher level and uses its advertised interval",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet power and shared skill base are equal across new classes",
+      "result": "PASS"
+    },
+    {
+      "name": "Classes retain distinct defensive and offensive tradeoffs",
+      "result": "PASS"
+    },
+    {
+      "name": "Starter single-target combat stays in a comparable damage band across classes",
+      "result": "PASS"
+    },
+    {
+      "name": "Whole-map spawning reaches all nine map regions, far and near, inside bounds",
+      "result": "PASS"
+    },
+    {
+      "name": "Spawn safety works when hero is in a map corner",
+      "result": "PASS"
+    },
+    {
+      "name": "Far caster closes distance and does not create long-range ground attacks",
+      "result": "PASS"
+    },
+    {
+      "name": "Every fifteenth wave still has exactly one dragon",
+      "result": "PASS"
+    },
+    {
+      "name": "World buff hit-test identifies a visible pickup",
+      "result": "PASS"
+    },
+    {
+      "name": "Tapping field buff opens exact description and pauses",
+      "result": "PASS"
+    },
+    {
+      "name": "Inspecting distant pickup does not collect it",
+      "result": "PASS"
+    },
+    {
+      "name": "Closing details resumes the same wave",
+      "result": "PASS"
+    },
+    {
+      "name": "Active buff chip explains exact duration and non-stacking refresh",
+      "result": "PASS"
+    },
+    {
+      "name": "Time and buff duration freeze while reading",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet chip shows every capped stat track",
+      "result": "PASS"
+    },
+    {
+      "name": "Outside bond reaches ten, persists and disables further purchase",
+      "result": "PASS"
+    },
+    {
+      "name": "All pet shop portraits match actual named gameplay frames",
+      "result": "PASS"
+    },
+    {
+      "name": "Home stays in upper-left after scrolling at 320×568",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet shop has no horizontal overflow at 320×568",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward cards and top-left home fit 320×568",
+      "result": "PASS"
+    },
+    {
+      "name": "Home stays in upper-left after scrolling at 390×844",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet shop has no horizontal overflow at 390×844",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward cards and top-left home fit 390×844",
+      "result": "PASS"
+    },
+    {
+      "name": "Home stays in upper-left after scrolling at 844×390",
+      "result": "PASS"
+    },
+    {
+      "name": "Pet shop has no horizontal overflow at 844×390",
+      "result": "PASS"
+    },
+    {
+      "name": "Reward cards and top-left home fit 844×390",
+      "result": "PASS"
+    },
+    {
+      "name": "Max-level pet tracks are absent from upgrade pool",
+      "result": "PASS"
+    },
+    {
+      "name": "No JavaScript errors in updated flows",
+      "result": "PASS"
+    }
+  ],
+  "errors": []
+}

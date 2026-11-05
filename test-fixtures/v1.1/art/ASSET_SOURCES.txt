@@ -1,0 +1,24 @@
+Forintvedo 1.1.0 - bundled graphics
+
+Kenney - Tiny Dungeon (2022)
+Original source: https://kenney.nl/assets/tiny-dungeon
+Downloaded archive:
+https://kenney.nl/media/pages/assets/tiny-dungeon/f8422efb44-1674742415/kenney_tiny-dungeon.zip
+License: Creative Commons CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Original license is bundled as KENNEY_LICENSE.txt.
+
+dungeon.png is a lossless atlas of the original 132 16x16 PNG tiles,
+12 columns x 11 rows. Original artwork is not AI generated.
+Launcher icon combines an original application background with Kenney tile 84.
+All UI, visual effects, game logic and synthesized audio are original to this project.
+No remote requests, advertisements, accounts or purchases are used.
+
+Blarumyrran - Dragons (red dragon)
+Source: https://opengameart.org/content/dragons
+Original PNG: https://opengameart.org/sites/default/files/pisilohepunane3.png
+License: CC0 1.0 Universal; attribution not required.
+The original PNG is bundled unchanged as dragon.png.
+
+Music: original procedural chiptune composition for Forintvedo.
+No third-party audio or music samples. See compose_music.py to regenerate.

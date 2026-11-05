@@ -1,0 +1,17 @@
+{
+  "version": "1.6.1",
+  "date": "2026-11-05",
+  "suitePassed": true,
+  "automatedChecks": 120,
+  "cardCampaigns": 12,
+  "reports": {
+    "test-results.json": 29,
+    "test-v1.6-results.json": 29,
+    "test-mechanics16-results.json": 13,
+    "test-class-button-results.json": 15,
+    "test-hud-results.json": 20,
+    "test-offline-results.json": 10,
+    "test-backup16-results.json": 4
+  },
+  "physicalPhoneTest": false
+}

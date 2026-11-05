@@ -1,0 +1,113 @@
+{
+  "note": "Simple automated strategy, not a human playtest or win-rate estimate.",
+  "results": [
+    {
+      "cls": "warrior",
+      "run": 0,
+      "won": true,
+      "hp": 32,
+      "stage": 8,
+      "turn": 7,
+      "terminated": true
+    },
+    {
+      "cls": "warrior",
+      "run": 1,
+      "won": true,
+      "hp": 42,
+      "stage": 8,
+      "turn": 6,
+      "terminated": true
+    },
+    {
+      "cls": "warrior",
+      "run": 2,
+      "won": true,
+      "hp": 57,
+      "stage": 8,
+      "turn": 7,
+      "terminated": true
+    },
+    {
+      "cls": "mage",
+      "run": 0,
+      "won": true,
+      "hp": 17,
+      "stage": 8,
+      "turn": 7,
+      "terminated": true
+    },
+    {
+      "cls": "mage",
+      "run": 1,
+      "won": false,
+      "hp": -1,
+      "stage": 8,
+      "turn": 2,
+      "terminated": true
+    },
+    {
+      "cls": "mage",
+      "run": 2,
+      "won": true,
+      "hp": 45,
+      "stage": 8,
+      "turn": 11,
+      "terminated": true
+    },
+    {
+      "cls": "ranger",
+      "run": 0,
+      "won": true,
+      "hp": 34,
+      "stage": 8,
+      "turn": 4,
+      "terminated": true
+    },
+    {
+      "cls": "ranger",
+      "run": 1,
+      "won": true,
+      "hp": 30,
+      "stage": 8,
+      "turn": 6,
+      "terminated": true
+    },
+    {
+      "cls": "ranger",
+      "run": 2,
+      "won": false,
+      "hp": 0,
+      "stage": 8,
+      "turn": 2,
+      "terminated": true
+    },
+    {
+      "cls": "necromancer",
+      "run": 0,
+      "won": true,
+      "hp": 18,
+      "stage": 8,
+      "turn": 6,
+      "terminated": true
+    },
+    {
+      "cls": "necromancer",
+      "run": 1,
+      "won": false,
+      "hp": -9,
+      "stage": 8,
+      "turn": 1,
+      "terminated": true
+    },
+    {
+      "cls": "necromancer",
+      "run": 2,
+      "won": true,
+      "hp": 2,
+      "stage": 8,
+      "turn": 6,
+      "terminated": true
+    }
+  ]
+}

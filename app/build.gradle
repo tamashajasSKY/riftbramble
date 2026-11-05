@@ -1,0 +1,15 @@
+plugins { id 'com.android.application' }
+def gamesId=providers.gradleProperty('PGS_APP_ID').getOrElse('')
+android {
+    namespace 'hu.forintvedo.survival'
+    compileSdk 35
+    sourceSets.main.manifest.srcFile '../gradle/src/main/AndroidManifest.xml'
+    defaultConfig { applicationId 'hu.forintvedo.survival'; minSdk 24; targetSdk 35; versionCode 10; versionName '1.6.1' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+    if(gamesId) {
+        sourceSets.main.java.srcDir '../cloud/src/main/java'
+        sourceSets.main.manifest.srcFile '../cloud/src/main/AndroidManifest.xml'
+        defaultConfig.resValue 'string','game_services_project_id',gamesId
+    }
+}
+if(gamesId) { dependencies { implementation 'com.google.android.gms:play-services-games-v2:21.0.0' } }

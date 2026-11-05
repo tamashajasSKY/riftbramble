@@ -1,0 +1,9 @@
+{
+  "passed": 4,
+  "checks": [
+    "Download contains third run",
+    "Full RESET actually clears all three run slots",
+    "File import restores all three independent runs",
+    "Unknown card rejects malformed import"
+  ]
+}
